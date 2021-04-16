@@ -1,0 +1,161 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-size: 66px; font-weight: 600; line-height: 80px;
+}
+
+h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 20px;
+    color:black;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+section{
+    padding:120px 0px;
+}
+
+.bg-light-grey{ background-color:burlywood;
+
+}
+.topmargin-xs{
+    margin-top: 15px;
+
+}
+.topmargin-sm{
+    margin-top: 30px;
+
+}
+.topmargin-lg{
+    margin-top: 60px;
+
+}
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+
+}
+
+.btn-light{
+    background-color: black;
+    color:blanchedalmond;
+    border: black;
+}
+
+.btn i{
+    font-size: 14px; margin-left: 5px;
+}
+.navbar{
+    background-color:rgb(172, 226, 71);
+    box-shadow: 0 2px 4 px 0 rgba(0, 0, 0, .05);
+    min-height: 100px; 
+}
+
+.nav-link{
+    color:black;
+}
+.logo-brand{
+    min-width: 80px;
+    max-width: 100px;
+}
+.navbar-toggler{
+     font-size: 40px;
+}
+.navbar-toggler:focus{
+    outline:none;
+}
+
+#hero{
+    background-image: url('https://images.unsplash.com/photo-1596079890744-c1a0462d0975?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
+    background-size: cover;
+    padding-top: 60px;
+    min-height: 650px;
+    color:black;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center; 
+}
+
+.Products-container{
+    position:relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.Products-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.Products-container:hover img{
+    -moz-transform:scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+.Products-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+
+}
+
+.Products-details h2{
+    margin-bottom: 0px;
+}
+
+.Products-details a h2, .products-details a p{
+    color:black;
+
+}
+
+.form-control{
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    padding: 15px;
+    border-radius: 2px;
+    height:auto;
+}
+
+.form-control:focus{
+    border: 1px solid black;
+    outline: none;
+    box-shadow: none;
+}
+
+.bg-drak{
+    background-color:black;
+}
+
+#footer{
+    padding: 80px 0;
+    text-align:center;
+    color:blanchedalmond;
+
+}
+
+#footer a {
+    color: white;
+}
+#footer a:hover {
+    color: white;
+}
+.footer .list-inline .list-inline-item{
+    padding: 10px 15px;
+}
